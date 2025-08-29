@@ -15,7 +15,7 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace UI_Tools
+namespace MainraGames
 {
     [UxmlElement]
     public partial class UIParticle : VisualElement
@@ -401,8 +401,9 @@ namespace UI_Tools
         public bool IsAlive() =>
             _particles.Count > 0 || (_isPlaying && (_cfg.RateOverTime > 0f || _cfg.RateOverDistance > 0f));
 
-        public void Clear()
+        public new void Clear()
         {
+            base.Clear();
             _particles.Clear();
             MarkDirtyRepaint();
         }

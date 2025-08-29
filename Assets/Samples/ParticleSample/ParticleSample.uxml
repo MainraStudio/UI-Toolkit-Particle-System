@@ -1,0 +1,3 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <MainraGames.UIParticle profile="project://database/Assets/Samples/ParticleSample/UIParticleProfile.asset?fileID=11400000&amp;guid=a3aed4bd7f7b99b4e8432fb24cb13280&amp;type=2#UIParticleProfile" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+</ui:UXML>

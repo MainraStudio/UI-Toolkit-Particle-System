@@ -1,7 +1,7 @@
 using UnityEngine;
 using Alchemy.Inspector;
 
-namespace UI_Tools
+namespace MainraGames
 {
     [CreateAssetMenu(fileName = "UIParticleProfile", menuName = "UI Toolkit/UIParticle/UIParticle Profile")]
     public class UIParticleProfile : ScriptableObject
@@ -158,11 +158,11 @@ namespace UI_Tools
         // ─────────────────────────────────────────────────────────────────────────
         [BoxGroup("Shape")]
         public UIParticle.EmitterShapeType ShapeType = UIParticle.EmitterShapeType.Sphere;
-        public bool IsShapeTypeSphere() => this.ShapeType == UI_Tools.UIParticle.EmitterShapeType.Sphere || this.ShapeType == UI_Tools.UIParticle.EmitterShapeType.Hemisphere;
-        public bool IsShapeTypeCone() => this.ShapeType == UI_Tools.UIParticle.EmitterShapeType.Cone;
-        public bool IsShapeTypeBox() => this.ShapeType == UI_Tools.UIParticle.EmitterShapeType.Box;
-        public bool IsShapeTypeCircle() => this.ShapeType == UI_Tools.UIParticle.EmitterShapeType.Circle;
-        public bool IsShapeTypeEdge() => this.ShapeType == UI_Tools.UIParticle.EmitterShapeType.Edge;
+        public bool IsShapeTypeSphere() => this.ShapeType == UIParticle.EmitterShapeType.Sphere || this.ShapeType == UIParticle.EmitterShapeType.Hemisphere;
+        public bool IsShapeTypeCone() => this.ShapeType == UIParticle.EmitterShapeType.Cone;
+        public bool IsShapeTypeBox() => this.ShapeType == UIParticle.EmitterShapeType.Box;
+        public bool IsShapeTypeCircle() => this.ShapeType == UIParticle.EmitterShapeType.Circle;
+        public bool IsShapeTypeEdge() => this.ShapeType == UIParticle.EmitterShapeType.Edge;
         [BoxGroup("Shape")]
         [ShowIf("IsShapeTypeSphere")]
         [Min(0f)]
@@ -404,7 +404,7 @@ namespace UI_Tools
         // ─────────────────────────────────────────────────────────────────────────
         [BoxGroup("Renderer")]
         public UIParticle.ParticleRenderMode RenderMode = UIParticle.ParticleRenderMode.Billboard;
-        public bool IsRenderModeStretchedBillboard() => RenderMode == UI_Tools.UIParticle.ParticleRenderMode.StretchedBillboard;
+        public bool IsRenderModeStretchedBillboard() => RenderMode == UIParticle.ParticleRenderMode.StretchedBillboard;
         [BoxGroup("Renderer")]
         public UIParticle.RenderSort Sorting = UIParticle.RenderSort.None;
 
@@ -428,12 +428,12 @@ namespace UI_Tools
 
         [BoxGroup("Renderer")]
         public UIParticle.UVSource UVMode = UIParticle.UVSource.Texture;
-        public bool IsUVModeTextureOrTextureSheet() => UVMode == UI_Tools.UIParticle.UVSource.Texture || UVMode == UI_Tools.UIParticle.UVSource.TextureSheet;
-        public bool IsUVModeSprite() => UVMode == UI_Tools.UIParticle.UVSource.Sprite;
-        public bool IsUVModeNotSprite() => UVMode != UI_Tools.UIParticle.UVSource.Sprite;
-        public bool IsUVModeTextureSheet() => UVMode == UI_Tools.UIParticle.UVSource.TextureSheet;
-        public bool IsUVModeTextureSheetAndTextureSheetEnabled() => UVMode == UI_Tools.UIParticle.UVSource.TextureSheet && TextureSheetEnabled;
-        public bool IsUVModeTextureSheetAndTextureSheetEnabledAndSheedModeSingleRow() => UVMode == UI_Tools.UIParticle.UVSource.TextureSheet && TextureSheetEnabled && SheetMode == UI_Tools.UIParticle.TextureSheetMode.SingleRow;
+        public bool IsUVModeTextureOrTextureSheet() => UVMode == UIParticle.UVSource.Texture || UVMode == UIParticle.UVSource.TextureSheet;
+        public bool IsUVModeSprite() => UVMode == UIParticle.UVSource.Sprite;
+        public bool IsUVModeNotSprite() => UVMode != UIParticle.UVSource.Sprite;
+        public bool IsUVModeTextureSheet() => UVMode == UIParticle.UVSource.TextureSheet;
+        public bool IsUVModeTextureSheetAndTextureSheetEnabled() => UVMode == UIParticle.UVSource.TextureSheet && TextureSheetEnabled;
+        public bool IsUVModeTextureSheetAndTextureSheetEnabledAndSheedModeSingleRow() => UVMode == UIParticle.UVSource.TextureSheet && TextureSheetEnabled && SheetMode == UIParticle.TextureSheetMode.SingleRow;
         // Texture (Texture/Sprite)
         [BoxGroup("Texture")]
         [ShowIf("IsUVModeTextureOrTextureSheet")]
