@@ -8,7 +8,7 @@
       "hash": "d9f5a2b8f9b7e79ac7fc7eb188b607bd60910398"
     },
     "com.mainra.uitoolkitparticlesystem": {
-      "version": "file:UI Toolkit Particle System",
+      "version": "file:UIToolkitParticleSystem",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
