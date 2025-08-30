@@ -15,7 +15,7 @@ namespace MainraGames.Editor
 	public static class UIParticleProfileExtractor
 	{
 		// Project Window "Create" menu wrapper (reuses the same logic)
-		[MenuItem("CONTEXT/ParticleSystem/UI Toolkit/Extract to UIParticle Profile", false, 2000)]
+		// [MenuItem("CONTEXT/ParticleSystem/UI Toolkit/Extract to UIParticle Profile", false, 2000)]
 		[MenuItem("GameObject/UI Toolkit/Extract to UIParticle Profile", false, 2000)]
 		private static void ExtractFromSelection()
 		{
