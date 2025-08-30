@@ -65,7 +65,7 @@
               }
           ],
           "dependencies": {
-              "com.mainragames.uitoolkit-particlesystem": "1.0.0"
+              "com.mainragames.uitoolkit-particlesystem": "1.0.1"
           }
       }
       ```
