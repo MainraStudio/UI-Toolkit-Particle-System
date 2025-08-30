@@ -16,7 +16,9 @@
 
 ## Installation
 - **Using Open UPM**
-  - **Install via Package Manager**
+  <details>
+  <summary>Install via Package Manager</summary>
+    
     - open **`Edit/Project Settings/Package Manager`**
     - add a new Scoped Registry (or edit the existing OpenUPM entry)
 
@@ -52,7 +54,11 @@
           }
       }
       ```
-  - **Install via command-line interface**
+  </details>
+  <details>
+  <summary>Install via command-line</summary>
+    
     ```console
     $ openupm add com.mainragames.uitoolkit-particlesystem
     ```
+- **Using Open Git URL**
