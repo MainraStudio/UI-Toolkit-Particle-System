@@ -7,7 +7,7 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
-    "com.mainra.uitoolkitparticlesystem": {
+    "com.mainragames.uitoolkitparticlesystem": {
       "version": "file:UIToolkitParticleSystem",
       "depth": 0,
       "source": "embedded",

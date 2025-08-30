@@ -1,8 +1,8 @@
 {
-  "name": "com.mainra.uitoolkitparticlesystem",
+  "name": "com.mainragames.uitoolkitparticlesystem",
   "displayName": "UI Toolkit Particle System",
   "version": "1.0.0",
-  "unity": "2021.3",
+  "unity": "2021.2",
   "description": "Particle System for UI Toolkit",
   "documentationUrl": "https://github.com/MainraStudio/UI-Toolkit-Particle-System",
   "author": {

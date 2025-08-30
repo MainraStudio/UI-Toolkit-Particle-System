@@ -14,8 +14,9 @@ namespace MainraGames.Editor
 {
 	public static class UIParticleProfileExtractor
 	{
-		// Tools menu entry (original)
-		//[MenuItem("Tools/UI Toolkit/UIParticle/Extract Profile From Selection")]
+		// Project Window "Create" menu wrapper (reuses the same logic)
+		[MenuItem("CONTEXT/ParticleSystem/UI Toolkit/Extract to UIParticle Profile", false, 2000)]
+		[MenuItem("GameObject/UI Toolkit/Extract to UIParticle Profile", false, 2000)]
 		private static void ExtractFromSelection()
 		{
 			var objs = Selection.objects;
@@ -73,15 +74,9 @@ namespace MainraGames.Editor
 				"OK");
 		}
 
-		// Project Window "Create" menu wrapper (reuses the same logic)
-		[MenuItem("Assets/Create/UI Toolkit/UIParticle/Extract Profile From Selection Prefabs", false, 2000)]
-		private static void ExtractFromSelection_CreateMenu()
-		{
-			ExtractFromSelection();
-		}
-
 		// Validator so the Create menu item is only enabled for valid selections
-		[MenuItem("Assets/Create/UI Toolkit/UIParticle/Extract Profile From Selection Prefabs", true)]
+		[MenuItem("Assets/Create/UI Toolkit/UIParticle/Extract Profile from Prefab", true)]
+		[MenuItem("GameObject/UI Toolkit/Extract to UIParticle Profile", true)]
 		private static bool ExtractFromSelection_CreateMenu_Validate()
 		{
 			var objs = Selection.objects;
