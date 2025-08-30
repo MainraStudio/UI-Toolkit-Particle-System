@@ -80,7 +80,6 @@
     https://github.com/MainraStudio/UI-Toolkit-Particle-System.git?path=Packages/UIToolkitParticleSystem
     ```
   - Click **`Install`**
-
   </details>
   <details>
   <summary>Install via Packages</summary>

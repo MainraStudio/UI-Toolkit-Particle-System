@@ -8,7 +8,6 @@
 //   noise, render modes (billboard/horizontal/vertical/stretched),
 //   texture/sprite/texture sheet (whole/single row), sorting, culling, Y-axis
 // -----------------------------------------------------------------------------
-
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -17,7 +16,7 @@ using UnityEngine.UIElements;
 
 namespace MainraGames
 {
-    [UxmlElement]
+    [UxmlElement(libraryPath = "MainraGames/Effects", visibility = LibraryVisibility.Visible)]
     public partial class UIParticle : VisualElement
     {
         public enum EmitterShapeType { Sphere, Hemisphere, Cone, Box, Circle, Edge }
