@@ -19,24 +19,26 @@
   <details>
   <summary>Install via Package Manager</summary>
     
-    - open **`Edit/Project Settings/Package Manager`**
-    - add a new Scoped Registry (or edit the existing OpenUPM entry)
+  - Open **`Edit > Project Settings > Package Manager`**
+  - Add a new Scoped Registry (or edit the existing OpenUPM entry)
 
-      | | |
-      | --- | --- |
-      | **Name** | `package.openupm.com` |
-      | **URL** | `https://package.openupm.com` |
-      | **Scope(s)** | `com.annulusgames.alchemy` |
-      | | `com.mainragames.uitoolkit-particlesystem` |
-    - click **`Apply`**
-    - open **`Window/Package Management/Package Manager`**
-    - click **`+`**
-    - select **`Install package by name...`**
-    - paste **`com.mainragames.uitoolkit-particlesystem`** into **Name**
-    - click **`Install`**
-      ## <sub>                                                                               OR</sub>
-    - Alternatively, merge the snippet to [Packages/manifest.json](https://docs.unity3d.com/Manual/upm-manifestPrj.html)
-      
+    | | |
+    | --- | --- |
+    | **Name** | `package.openupm.com` |
+    | **URL** | `https://package.openupm.com` |
+    | **Scope(s)** | `com.annulusgames.alchemy` |
+    | | `com.mainragames.uitoolkit-particlesystem` |
+  - Click **`Apply`**
+  - Open **`Window > Package Management > Package Manager`**
+  - Click **`+`**
+  - Select **`Install package by name...`**
+  - Paste **`com.mainragames.uitoolkit-particlesystem`** into **Name**
+  - Click **`Install`**
+  </details>
+  <details>
+  <summary>Install via Packages</summary>
+
+    - Merge the snippet to [Packages/manifest.json](https://docs.unity3d.com/Manual/upm-manifestPrj.html)
       ```json
       {
           "scopedRegistries": [
@@ -61,4 +63,42 @@
     ```console
     $ openupm add com.mainragames.uitoolkit-particlesystem
     ```
-- **Using Open Git URL**
+  </details>
+- **Using Git URL**
+  <details>
+  <summary>Install via Package Manager</summary>
+    
+  - Open **`Edit > Project Settings > Package Manager`**
+  - Click **`+`**
+  - Select **`Install package from git URL...`**
+  - > (Optional) if you haven't installed [Alchemy](https://github.com/annulusgames/Alchemy), Enter the following URL First:
+    ```
+    https://github.com/annulusgames/Alchemy.git?path=/Alchemy/Assets/Alchemy
+    ```
+  - Enter the following URL:
+    ```
+    https://github.com/MainraStudio/UI-Toolkit-Particle-System.git?path=Packages/UIToolkitParticleSystem
+    ```
+  - Click **`Install`**
+
+  </details>
+  <details>
+  <summary>Install via Packages</summary>
+
+  - Merge the snippet to [Packages/manifest.json](https://docs.unity3d.com/Manual/upm-manifestPrj.html)
+    ```json
+    {
+        "dependencies": {
+            "com.mainragames.uitoolkit-particlesystem": "https://github.com/MainraStudio/UI-Toolkit-Particle-System.git?path=Packages/UIToolkitParticleSystem"
+        }
+    }
+    ```
+   - > (Optional) if you haven't installed [Alchemy](https://github.com/annulusgames/Alchemy)
+      ```json
+      {
+          "dependencies": {
+              "com.annulusgames.alchemy": "https://github.com/annulusgames/Alchemy.git?path=/Alchemy/Assets/Alchemy"
+          }
+      }
+      ```
+  </details>
