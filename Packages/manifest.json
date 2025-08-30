@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.annulusgames.alchemy": "2.1.0",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.ide.rider": "3.0.36",
     "com.unity.ide.visualstudio": "2.0.23",
@@ -39,10 +38,10 @@
   },
   "scopedRegistries": [
     {
-      "name": "OpenUPM",
+      "name": "package.openupm.com",
       "url": "https://package.openupm.com",
       "scopes": [
-        "com.annulusgames"
+        "com.annulusgames.alchemy"
       ]
     }
   ]

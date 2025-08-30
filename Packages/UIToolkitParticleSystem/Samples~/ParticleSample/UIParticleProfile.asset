@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63984a59c5e406d4a9e91497f5558288, type: 3}
   m_Name: UIParticleProfile
   m_EditorClassIdentifier: UIParticle::MainraGames.UIParticleProfile
-  revision: 479
+  revision: 481
   Duration: 5
   Looping: 1
   Prewarm: 0

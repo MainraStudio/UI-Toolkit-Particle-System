@@ -2,12 +2,12 @@
   "dependencies": {
     "com.annulusgames.alchemy": {
       "version": "2.1.0",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
-    "com.mainragames.uitoolkitparticlesystem": {
+    "com.mainragames.uitoolkit-particlesystem": {
       "version": "file:UIToolkitParticleSystem",
       "depth": 0,
       "source": "embedded",
