@@ -18,20 +18,16 @@
 ## Features
 <details>
 <summary>Easy to edit with UIBuilder</summary>
+<br/>
 
-<a href="#"><img src="Docs/Images/001. Easy to edit with UIBuilder.gif" width="800"></a>
+> <a href="#"><img src="Docs/Images/001. Easy to edit with UIBuilder.gif" width="800"></a>
 </details>
 <details>
 <summary>Can extract existing ParticleSystem</summary>
+<br/>
 
-<a href="#"><img src="Docs/Images/002. Can extract existing ParticleSystem.gif" width="800"></a>
+> <a href="#"><img src="Docs/Images/002. Can extract existing ParticleSystem.gif" width="800"></a>
 </details>
-
-## Requirements
-| **Name** | **Version** |
-| --- | --- |
-| Unity | `>= 2021.2` |
-| [Alchemy](https://github.com/annulusgames/Alchemy) | `>= 2.1.0` |
 
 ## Installation
 - **Using Open UPM**
