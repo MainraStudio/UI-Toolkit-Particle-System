@@ -17,43 +17,47 @@
 
 ## Features
 <details>
-<summary>Easy to edit with UIBuilder</summary>
-<br/>
+  <summary>Easy to edit with UIBuilder</summary>
+  <br/>
 
-> <a href="#"><img src="Docs/Images/001. Easy to edit with UIBuilder.gif" width="800"></a>
+  > <a href="#"><img src="Docs/Images/001. Easy to edit with UIBuilder.gif" width="800"></a>
 </details>
 <details>
-<summary>Can extract existing ParticleSystem</summary>
-<br/>
+  <summary>Can extract existing ParticleSystem</summary>
+  <br/>
 
-> <a href="#"><img src="Docs/Images/002. Can extract existing ParticleSystem.gif" width="800"></a>
+  > <a href="#"><img src="Docs/Images/002. Can extract existing ParticleSystem.gif" width="800"></a>
 </details>
 
 ## Installation
-- **Using Open UPM**
-  <details>
-  <summary>Install via Package Manager</summary>
-    
-  - Open **`Edit > Project Settings > Package Manager`**
-  - Add a new Scoped Registry (or edit the existing OpenUPM entry)
 
-    | | |
-    | --- | --- |
-    | **Name** | `package.openupm.com` |
-    | **URL** | `https://package.openupm.com` |
-    | **Scope(s)** | `com.annulusgames.alchemy` |
-    | | `com.mainragames.uitoolkit-particlesystem` |
-  - Click **`Apply`**
-  - Open **`Window > Package Management > Package Manager`**
-  - Click **`+`**
-  - Select **`Install package by name...`**
-  - Paste **`com.mainragames.uitoolkit-particlesystem`** into **Name**
-  - Click **`Install`**
+- **Using Open UPM**
+  
+  <details>
+    <summary>Install via Package Manager</summary>
+    
+    - Open **`Edit > Project Settings > Package Manager`**
+    - Add a new Scoped Registry (or edit the existing OpenUPM entry)
+  
+      | | |
+      | --- | --- |
+      | **Name** | `package.openupm.com` |
+      | **URL** | `https://package.openupm.com` |
+      | **Scope(s)** | `com.annulusgames.alchemy` |
+      | | `com.mainragames.uitoolkit-particlesystem` |
+    - Click **`Apply`**
+    - Open **`Window > Package Management > Package Manager`**
+    - Click **`+`**
+    - Select **`Install package by name...`**
+    - Paste **`com.mainragames.uitoolkit-particlesystem`** into **Name**
+    - Click **`Install`**
+      
   </details>
   <details>
-  <summary>Install via Packages</summary>
+    <summary>Install via Project Manifest</summary>
 
     - Merge the snippet to [Packages/manifest.json](https://docs.unity3d.com/Manual/upm-manifestPrj.html)
+      
       ```json
       {
           "scopedRegistries": [
@@ -71,44 +75,68 @@
           }
       }
       ```
+      
   </details>
   <details>
-  <summary>Install via command-line</summary>
-    
-    - ```console
-      $ openupm add com.mainragames.uitoolkit-particlesystem
+    <summary>Install via Command-Line</summary>
+
+    - > (Optional) install openupm-cli. Ignore if already installed.
+      
+      ```console
+      npm install -g openupm-cli
       ```
+      
+    - Go to your unity project directory
+      
+      ```cmd
+      cd YOUR_UNITY_PROJECT_DIR
+      ```
+    - Install package: com.mainragames.uitoolkit-particlesystem
+      
+      ```console
+      openupm add com.mainragames.uitoolkit-particlesystem
+      ```
+      
   </details>
+  
 - **Using Git URL**
+  
   <details>
-  <summary>Install via Package Manager</summary>
+    <summary>Install via Package Manager</summary>
     
-  - Open **`Edit > Project Settings > Package Manager`**
-  - Click **`+`**
-  - Select **`Install package from git URL...`**
-  - > (Optional) if you haven't installed [Alchemy](https://github.com/annulusgames/Alchemy), Enter the following URL First:
-    ```
-    https://github.com/annulusgames/Alchemy.git?path=/Alchemy/Assets/Alchemy
-    ```
-  - Enter the following URL:
-    ```
-    https://github.com/MainraStudio/UI-Toolkit-Particle-System.git?path=Packages/UIToolkitParticleSystem
-    ```
-  - Click **`Install`**
+    - Open **`Edit > Project Settings > Package Manager`**
+    - Click **`+`**
+    - Select **`Install package from git URL...`**
+    - > (Optional) if you haven't installed [Alchemy](https://github.com/annulusgames/Alchemy), Enter the following URL First:
+      
+      ```
+      https://github.com/annulusgames/Alchemy.git?path=/Alchemy/Assets/Alchemy
+      ```
+      
+    - Enter the following URL:
+      
+      ```
+      https://github.com/MainraStudio/UI-Toolkit-Particle-System.git?path=Packages/UIToolkitParticleSystem
+      ```
+      
+    - Click **`Install`**
 
   </details>
   <details>
-  <summary>Install via Packages</summary>
+    <summary>Install via Project Manifest</summary>
 
-  - Merge the snippet to [Packages/manifest.json](https://docs.unity3d.com/Manual/upm-manifestPrj.html)
-    ```json
-    {
-        "dependencies": {
-            "com.mainragames.uitoolkit-particlesystem": "https://github.com/MainraStudio/UI-Toolkit-Particle-System.git?path=Packages/UIToolkitParticleSystem"
-        }
-    }
-    ```
+    - Merge the snippet to [Packages/manifest.json](https://docs.unity3d.com/Manual/upm-manifestPrj.html)
+    
+      ```json
+      {
+          "dependencies": {
+              "com.mainragames.uitoolkit-particlesystem": "https://github.com/MainraStudio/UI-Toolkit-Particle-System.git?path=Packages/UIToolkitParticleSystem"
+          }
+      }
+      ```
+      
    - > (Optional) if you haven't installed [Alchemy](https://github.com/annulusgames/Alchemy)
+     
       ```json
       {
           "dependencies": {
@@ -116,4 +144,5 @@
           }
       }
       ```
+      
   </details>
