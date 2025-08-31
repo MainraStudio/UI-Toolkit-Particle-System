@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Test/Test.uss?fileID=7433441132597879392&amp;guid=e09b8edf71c5e8844b75bbe556c9be23&amp;type=3" />
+    <MainraGames.UIParticle profile="project://database/Assets/Test/UIParticleProfile.asset?fileID=11400000&amp;guid=1d24b301c79a37c4cb09dee659ace0a7&amp;type=2#UIParticleProfile" />
+</ui:UXML>

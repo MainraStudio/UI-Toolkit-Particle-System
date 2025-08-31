@@ -17,6 +17,7 @@ namespace MainraGames.Editor
 		// Project Window "Create" menu wrapper (reuses the same logic)
 		// [MenuItem("CONTEXT/ParticleSystem/UI Toolkit/Extract to UIParticle Profile", false, 2000)]
 		[MenuItem("GameObject/UI Toolkit/Extract to UIParticle Profile", false, 2000)]
+		[MenuItem("Assets/Create/UI Toolkit/UIParticle/Extract Profile From Selection Prefabs", false, 2000)]
 		private static void ExtractFromSelection()
 		{
 			var objs = Selection.objects;

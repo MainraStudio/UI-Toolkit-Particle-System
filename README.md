@@ -15,10 +15,14 @@
 
 ## Features
 <details>
-<summary>Can extract existing particle systems</summary>
+<summary>Easy to edit with UIBuilder</summary>
+
+<a href="#"><img src="Docs/Images/001. Easy to edit with UIBuilder.gif" width="800"></a>
 </details>
 <details>
-<summary>Easy to edit with UIBuilder</summary>
+<summary>Can extract existing ParticleSystem</summary>
+
+<a href="#"><img src="Docs/Images/002. Can extract existing ParticleSystem.gif" width="800"></a>
 </details>
 
 ## Requirements
@@ -65,7 +69,7 @@
               }
           ],
           "dependencies": {
-              "com.mainragames.uitoolkit-particlesystem": "1.0.2"
+              "com.mainragames.uitoolkit-particlesystem": "1.0.3"
           }
       }
       ```
