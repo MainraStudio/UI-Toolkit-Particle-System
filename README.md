@@ -2,7 +2,8 @@
 <a href="#"><img src="Docs/Logo.svg" width="400"></a>
 </p>
 <p align="center">
-<a href="https://github.com/MainraStudio/UI-Toolkit-Particle-System/releases"><img src="https://img.shields.io/github/downloads/MainraStudio/UI-Toolkit-Particle-System/total?logoColor=44444E&label=Downloads&labelColor=FFD93D&color=44444E" alt="GitHub downloads"></a>
+<a href="#"><img src="https://img.shields.io/badge/dynamic/json?amp;label=downloads&amp;query=%24.downloads&amp;url=https%3A%2F%2Fpackage.openupm.com%2Fdownloads%2Fpoint%2Fall-time%2Fcom.mainragames.uitoolkit-particlesystem&label=Downloads&logoColor=44444E&labelColor=FFD93D&color=44444E" alt="OpenUPM downloads"></a>
+<!-- <a href="https://github.com/MainraStudio/UI-Toolkit-Particle-System/releases"><img src="https://img.shields.io/github/downloads/MainraStudio/UI-Toolkit-Particle-System/total?logoColor=44444E&label=Downloads&labelColor=FFD93D&color=44444E" alt="GitHub downloads"></a> -->
 <a href="https://openupm.com/packages/com.mainragames.uitoolkit-particlesystem/"><img src="https://img.shields.io/npm/v/com.mainragames.uitoolkit-particlesystem?label=OpenUPM&registry_uri=https://package.openupm.com&&logoColor=44444E&labelColor=FFD93D&color=44444E" alt="OpenUPM"></a>
 <a href="https://github.com/MainraStudio/UI-Toolkit-Particle-System/blob/master/LICENSE"><img src="https://img.shields.io/github/license/MainraStudio/UI-Toolkit-Particle-System?logoColor=44444E&label=License&labelColor=FFD93D&color=44444E" alt="GitHub license"></a>
 <!-- <a href="https://github.com/MainraStudio/UI-Toolkit-Particle-System/releases/latest"><img src="https://img.shields.io/github/release/MainraStudio/UI-Toolkit-Particle-System" alt="GitHub release"></a> -->
